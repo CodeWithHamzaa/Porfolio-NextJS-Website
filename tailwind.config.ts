@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        NerkoOne : ["Nerko One", "cursive"],
+      },
+      keyframes: {
+        'bounce-horizontal': {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(12px)' }, // Adjust distance here
+        },
+      },
+      animation: {
+        'bounce-horizontal': 'bounce-horizontal 1.5s infinite',
       },
     },
   },

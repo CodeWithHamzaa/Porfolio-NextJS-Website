@@ -1,27 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.container {
+    width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@media (min-width: 540px) {
+    .container {
+        max-width: 540px;
+    }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 720px) {
+    .container {
+        max-width: 720px;
+    }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@media (min-width: 960px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+.two:hover span {
+    width: 50%;
 }
