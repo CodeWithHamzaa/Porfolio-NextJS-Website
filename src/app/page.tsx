@@ -22,7 +22,7 @@ export default function Home() {
           <div className="relative flex flex-col bg-clip-border text-gray-700 col-span-full rounded-xl border border-white bg-white/90 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8">
             {/* Title */}
             <h1 className="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 lg:text-5xl !leading-snug text-3xl lg:max-w-3xl">
-              Hi,<br /> I'm <span className="text-[#824CF3]/90 font-bold tracking-widest">Hamza</span> <br /> Full-Stack Developer
+              Hi,<br /> I&apos;m <span className="text-[#824CF3]/90 font-bold tracking-widest">Hamza</span> <br /> Full-Stack Developer
             </h1>
 
             {/* Subtitle */}

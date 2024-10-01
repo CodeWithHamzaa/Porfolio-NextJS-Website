@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import React from 'react';
+import Image from 'next/image';
 
 export function Footer() {
     return (
@@ -7,7 +8,7 @@ export function Footer() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto">
                     <a href="/" className="flex justify-center">
-                        <img src="/logo.png" className="w-50 h-20" alt="Logo" />
+                        <Image src="/logo.png" className="w-52 h-20" width={228} height={100}  alt="Logo" />
                     </a>
 
                     <ul className="text-lg text-slate-200 flex items-center justify-center flex-col gap-7 md:flex-row transition-all duration-500 py-11 mb-10 border-b border-gray-200">
