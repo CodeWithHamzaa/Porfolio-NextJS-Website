@@ -6,18 +6,18 @@ import { FaPaperPlane, FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="!flex h-[55vh] w-full items-center justify-between px-10 mb-80">
+    <div className="!flex  w-full items-center justify-between px-10 mb-40">
       {/* Background Image */}
       <Image
         width={1200}
         height={1200}
         src="/hero/banner-pic.png"
         alt="bg-img"
-        className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
+        className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-right"
       />
 
       {/* Hero Content */}
-      <div className="container mx-auto mt-40 sm:mt-36">
+      <div className="container mx-auto mt-80 sm:mt-10">
         <div className="grid grid-cols-12 text-center lg:text-left">
           <div className="relative flex flex-col bg-clip-border text-gray-700 col-span-full rounded-xl border border-white bg-white/90 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8">
             {/* Title */}
@@ -35,12 +35,12 @@ export default function Home() {
             {/* Buttons */}
             <div className="mb-8 flex justify-center gap-8 lg:justify-start">
               <Link href="/about">
-                <button className="align-middle select-none flex gap-2 font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none">
+                <button className="align-middle select-none flex gap-2 font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-[10px] lg:text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none">
                   More About  Me <FaArrowRight className="text-[#bb9aff] animate-bounce-horizontal h-4 w-4" />
                 </button>
               </Link>
               <Link href="/contact">
-                <button className="align-middle select-none flex gap-2 font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]">
+                <button className="align-middle select-none flex gap-2 font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-[10px] lg:text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]">
                   Contact Us <FaPaperPlane className="h-4 w-4" />
                 </button>
               </Link>
@@ -77,21 +77,21 @@ export default function Home() {
                 alt="facebook"
               />
             </div> */}
-            <div className="max-w-7xl">
+            <div className="max-w-7xl mt-5">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 mt-5">
                 <a href="https://www.youtube.com/@CodeWithHamzaa" target="_blank"
-                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-24 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
+                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-20 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
                   <Image
                     width={144}
                     height={144}
-                    className="max-h-14"
+                    className="max-h-12"
                     src="/social/youtube.png"
                     alt="youtube"
                   />
                 </a>
 
                 <a href="https://www.linkedin.com/in/code-with-hamza-00c11h/" target="_blank"
-                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-24 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
+                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-20 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
                   <Image
                     width={144}
                     height={144}
@@ -102,18 +102,18 @@ export default function Home() {
                 </a>
 
                 <a href="https://www.instagram.com/official_codewithhamza?igsh=Mzdyc3NpOGZkOXo0" target="_blank"
-                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-24 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
+                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-20 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
                   <Image
                     width={144}
                     height={144}
-                    className="min-h-20"
+                    className="min-h-24"
                     src="/social/insta.png"
                     alt="instagram"
                   />
                 </a>
 
                 <a href="https://www.facebook.com/profile.php?id=61556819433779&mibextid=ZbWKwL" target="_blank"
-                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-24 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
+                  className="flex justify-center items-center border border-solid border-gray-400 shadow-sm h-20 rounded-2xl opacity-80 hover:bg-slate-300/20 hover:opacity-90">
                   <Image
                     width={144}
                     height={144}
